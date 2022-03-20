@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: auto;
+    height:2750px;
+}
+
+.container > .left_box{
+    position: fixed;
+    width: 400px;
+    height:713px;
+    background-color: rgba(185, 142, 0, 0.705);
+    
+}
+
+.left_box > nav{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.left_box > nav > .tema{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.left_box > nav p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 330px;
+    border: 1px solid rgba(185, 142, 0, 0.705);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background-repeat: 20px;
+    padding-left: 20px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.left_box > nav p:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgba(185, 142, 0, 0.705);
+}
+
+.container > .right_box{
+    background-color: rgb(255, 255, 255);
+    width: 1119px;
+    height: 2750px;
+    margin-left: 400px;
+}
+
+.right_box > main{
+    border: 2px solid rgb(255, 255, 255);
+    width: 1000px;
+    height: 2750px;
+    margin-left: 60px;
+
+}
+
+main > p{
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 100;
+}
+
+main > h1{
+    color: rgb(182, 139, 0);
+    font-weight: 100;
+}
+
+main > hr{
+    width: 50px;
+    border: 3px solid rgb(182, 139, 0);
+    border-radius: 30px;
+    background-color: rgb(182, 139, 0);
+}
+
+.img_content{
+    width: 950px;
+    height: 570px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.img_content img{
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.img_container{
+    width: 950px;
+    height: 350px;
+    margin-left: 25px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img_container > .imgbox1{
+    width: 285px;
+    height: 290px;
+    background-color: rgba(182, 140, 0, 0.527);
+    border-radius: 15px 15px;
+}
+
+.img_container > .imgbox1 > img{
+    width: 285px;
+    height: 200px;
+}
+
+.img_container > .imgbox1 > p{
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+.img_container > .imgbox2{
+    width: 285px;
+    height: 290px;
+    background-color: rgba(182, 140, 0, 0.527);
+    border-radius: 15px 15px;
+}
+
+.img_container > .imgbox2 > img{
+    width: 285px;
+    height: 200px;
+}
+
+.img_container > .imgbox2 > p{
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+.img_container > .imgbox3{
+    width: 285px;
+    height: 290px;
+    background-color: rgba(182, 140, 0, 0.527);
+    border-radius: 15px 15px;
+}
+
+.img_container > .imgbox3 > img{
+    width: 285px;
+    height: 200px;
+}
+
+.img_container > .imgbox3 > p{
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+}
+
+.text_container2{
+    width: 950px;
+    height: 620px;
+    margin-left: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text_container2 > .box1{
+    width: 450px;
+    height: 600px;
+    background-color: rgba(182, 140, 0, 0.527);
+}
+
+.text_container2 > .box1 > .tema{
+    width: 450px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: rgba(182, 140, 0, 0.527);
+}
+
+.text_container2 > .box2{
+    width: 450px;
+    height: 550px;
+    background-color: grey;
+}
+
+.text_container2 > .box1 > p{
+    width: 450px;
+    background-color: rgba(182, 140, 0, 0.308);
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container2 > .box2{
+    width: 450px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.text_container2 > .box2 > .tema{
+    width: 450px;
+    height: 100px;
+    background-color:  rgb(182, 140, 0);
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.text_container2 > .box2 > p{
+    width: 450px;
+    background-color: rgb(255, 211, 68);
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 900px;
+    height: 30px;
+}
+
+
+
+
